@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Hak Cipta (C) 2009 Proyek Sumber Terbuka Android
+
+     Dilisensikan di bawah Lisensi Apache, Versi 2.0 ("Lisensi");
+
+     Anda tidak boleh menggunakan file ini kecuali sesuai dengan Lisensi.
+
+     Anda dapat memperoleh salinan Lisensi di
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Kecuali diwajibkan oleh hukum yang berlaku atau disetujui secara tertulis, perangkat lunak
+
+     didistribusikan di bawah Lisensi didistribusikan pada DASAR "SEBAGAIMANA ADANYA",
+
+     TANPA JAMINAN ATAU KETENTUAN APA PUN, baik tersurat maupun tersirat.
+
+     Lihat Lisensi untuk bahasa khusus yang mengatur izin dan
+
+     batasan di bawah Lisensi.
+
+-->
+
+<!-- Sumber daya ini tersedia hanya untuk memungkinkan nilainya disesuaikan
+
+     untuk pembuatan perangkat keras dan produk yang berbeda. Jangan terjemahkan. -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <integer name="config_buttonBrightnessSettingDefault">0</integer>
+
+</resources>

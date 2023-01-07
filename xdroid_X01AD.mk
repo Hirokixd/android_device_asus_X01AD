@@ -21,14 +21,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from X01AD device
 $(call inherit-product, device/asus/X01AD/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common xdroidOSS stuff.
+$(call inherit-product, vendor/xdroid/config/common_full_phone.mk)
+XDROID_BOOT := 720
+XDROID_UI_BLUR := true
+XDROID_MAINTAINER := HirokiXD
 
 # Set shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Device identifiers.
-PRODUCT_NAME := lineage_X01AD
+PRODUCT_NAME := xdroid_X01AD
 PRODUCT_DEVICE := X01AD
 PRODUCT_MANUFACTURER := asus
 PRODUCT_BRAND := asus

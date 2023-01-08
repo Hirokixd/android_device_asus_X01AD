@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/asus/X01AD/device.mk)
 
 # Inherit some common xdroidOSS stuff.
-$(call inherit-product, vendor/xdroid/config/common_full_phone.mk)
+$(call inherit-product, vendor/xdroid/config/common.mk)
 XDROID_BOOT := 720
 XDROID_UI_BLUR := true
 XDROID_MAINTAINER := HirokiXD

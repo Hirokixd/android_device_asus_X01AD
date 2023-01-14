@@ -25,6 +25,8 @@ $(call inherit-product, device/asus/X01AD/device.mk)
 $(call inherit-product, vendor/xdroid/config/common.mk)
 XDROID_BOOT_DARK := true
 XDROID_UI_BLUR := true
+
+# resolution boot animation
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Set shipping API level
